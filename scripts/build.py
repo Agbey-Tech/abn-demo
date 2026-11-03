@@ -58,7 +58,7 @@ def navigation(prefix, page):
     for key,label,data in [('network','The Network',NETWORK),('studio','Ascend Studio',STUDIO),('experiences','Experiences',EXPERIENCES),('resources','Resources',RESOURCES),('about','About',ABOUT)]:
         mobile+='<details class="mobile-nav-group"><summary>'+label+'<span aria-hidden="true">+</span></summary><div>'+groups(data,prefix)+'</div></details>'
     return '''<div class="announcement"><span>A new room for the people who lead.</span><a href="'''+href('network/#founding',prefix)+'''">Founding invitations · February 2027 <span>↗</span></a></div>
-<header class="site-header"><a class="brand" href="'''+href('',prefix)+'''" aria-label="Ascend Brand Network home"><img src="'''+prefix+'''assets/logo-dark.png" alt="Ascend Brand Network" width="178" height="40"></a><nav class="desktop-nav" aria-label="Main navigation">'''+nav+'''</nav>'''+panels+'''<a class="header-contact text-button" href="'''+href('work-with-us/',prefix)+'''">Let’s Connect <span>↗</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button><div class="reading-progress" aria-hidden="true"><span></span></div></header><div class="navigation-scrim" hidden></div><nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden><p class="eyebrow mobile-menu-intro">Ascend Brand Network</p>'''+mobile+'''<a class="button button-green" href="'''+href('work-with-us/',prefix)+'''">Let’s Connect <span>↗</span></a></nav>'''
+<header class="site-header"><a class="brand" href="'''+href('',prefix)+'''" aria-label="Ascend Brand Network home"><img src="'''+prefix+'''assets/logo-dark.png" alt="Ascend Brand Network" width="178" height="40"></a><nav class="desktop-nav" aria-label="Main navigation">'''+nav+'''</nav>'''+panels+'''<a class="header-contact text-button" href="'''+href('work-with-us/',prefix)+'''">Let’s Connect <span>↗</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button><div class="reading-progress" aria-hidden="true"><span></span></div></header><div class="navigation-scrim" hidden></div><nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden><p class="eyebrow mobile-menu-intro">Ascend Brand Network</p>'''+mobile+'''<a class="button button-primary" href="'''+href('work-with-us/',prefix)+'''">Let’s Connect <span>↗</span></a></nav>'''
 
 def footer(prefix):
     data=[('The Network', [('Network Overview','network/#overview'),('Founding Membership','network/#founding'),('Membership Process','network/#process'),('Shepherd’s Roundtable','roundtable/'),('Membership FAQs','network/#faqs')]),('Ascend Studio',[('All Services','services/#services'),('Churches & Ministries','churches-ministries/'),('Real Estate Professionals','real-estate/'),('Portfolio','portfolio/#projects'),('Our Process','services/#process'),('Request a Consultation','work-with-us/#studio')]),('Explore ABN',[('About ABN','about/'),('Experiences','experiences/'),('Leadership Dinners','experiences/#dinners'),('Leadership Retreats','experiences/#retreats'),('The Shepherd’s Diary','resources/#diary'),('Resource Center','resources/')]),('Information',[('Contact','work-with-us/#general')])]
@@ -66,7 +66,7 @@ def footer(prefix):
     return '<footer class="site-footer"><div class="footer-main page-width"><div class="footer-brand"><a href="'+href('',prefix)+'"><img src="'+prefix+'assets/logo-light.png" alt="Ascend Brand Network" width="190" height="42"></a><p>For the Leaders.<br><em>For the Mission.</em></p><span>Nationwide, United States</span></div>'+cols+'</div><div class="footer-bottom page-width"><span>© 2026 Ascend Brand Network</span><span>Where Faith Leads, We Build.</span><span class="concept-label">Independent redesign concept</span></div></footer>'
 
 def hero(eyebrow,title,description,image,cta='studio'):
-    return '<section class="interior-hero page-width"><div><p class="breadcrumbs"><a href="../index.html">Home</a><span>/</span>'+escape(eyebrow)+'</p><p class="eyebrow">'+escape(eyebrow)+'</p><h1>'+title+'</h1><p class="interior-lead">'+description+'</p><button class="button button-green" data-contact="'+cta+'">'+('Request consideration' if cta=='network' else 'Let’s connect')+' <span>↗</span></button></div><div class="interior-image"><img src="assets/'+image+'" alt="'+escape(eyebrow)+'" fetchpriority="high"></div></section>'
+    return '<section class="interior-hero page-width"><div><p class="breadcrumbs"><a href="../index.html">Home</a><span>/</span>'+escape(eyebrow)+'</p><p class="eyebrow">'+escape(eyebrow)+'</p><h1>'+title+'</h1><p class="interior-lead">'+description+'</p><button class="button button-primary" data-contact="'+cta+'">'+('Request consideration' if cta=='network' else 'Let’s connect')+' <span>↗</span></button></div><div class="interior-image"><img src="assets/'+image+'" alt="'+escape(eyebrow)+'" fetchpriority="high"></div></section>'
 
 def block(id,kicker,title,body):
     return '<section class="interior-section page-width" id="'+id+'"><div><p class="eyebrow">'+kicker+'</p><h2>'+title+'</h2></div><div class="interior-content">'+body+'</div></section>'
@@ -78,7 +78,7 @@ def faqs(items):
     return ''.join('<details class="interior-faq"><summary>'+q+'<span>+</span></summary><p>'+a+'</p></details>' for q,a in items)
 
 def action(type,label):
-    return '<button class="button button-green" data-contact="'+type+'">'+label+' <span>↗</span></button>'
+    return '<button class="button button-primary" data-contact="'+type+'">'+label+' <span>↗</span></button>'
 
 network=hero('The Network','Leadership is<br><em>better together.</em>','A private peer network for senior pastors and ministry leaders, built on trust, shared perspective, and meaningful relationships.','conversation.jpg','network')
 network+=block('overview','The community','A place beyond<br><em>the platform.</em>','<p>The Network supports the person carrying the responsibility. It is being developed as a nationwide, independent, non-denominational community.</p>')
@@ -130,7 +130,7 @@ contact+=block('paths','Choose your path','What brings<br><em>you here?</em>','<
 PAGES={'network':('The Network',network),'services':('Ascend Studio',services),'portfolio':('Portfolio',portfolio),'experiences':('Experiences',experiences),'roundtable':('The Shepherd’s Roundtable',roundtable),'resources':('Resource Center',resources),'about':('About ABN',about),'churches-ministries':('Churches & Ministries',churches),'real-estate':('Real Estate Professionals',realestate),'work-with-us':('Let’s Connect',contact)}
 
 head=SOURCE[SOURCE.index('<head>'):SOURCE.index('</head>')+7]
-head=head.replace('</head>','  <link rel="stylesheet" href="site.css">\n</head>')
+head=head.replace('</head>','  <link rel="stylesheet" href="site.css">\n  <link rel="stylesheet" href="motion.css">\n  <script src="motion.js" defer></script>\n</head>')
 dialogs=SOURCE[SOURCE.index('  <dialog id="contact-dialog"'):SOURCE.index('</body>')]
 home_main=SOURCE[SOURCE.index('  <main id="main">'):SOURCE.index('  <footer')]
 home_main=home_main.replace('href="#network"','href="network/"').replace('href="#studio"','href="services/"')
@@ -145,8 +145,8 @@ def render(page,title,content):
         content=re.sub(r'(src=")assets/',r'\1../assets/',content)
         content=content.replace('href="#network"','href="../network/"').replace('href="#studio"','href="../services/"')
         # All shared assets resolve against this page, not the domain root.
-        h=re.sub(r'(href=")(assets/|styles.css|refinements.css|site.css)',r'\1../\2',h)
-        h=h.replace('src="app.js"','src="../app.js"')
+        h=re.sub(r'(href=")(assets/|styles.css|refinements.css|site.css|motion.css)',r'\1../\2',h)
+        h=h.replace('src="app.js"','src="../app.js"').replace('src="motion.js"','src="../motion.js"')
     d=dialogs.replace('src="assets/','src="'+prefix+'assets/')
     return '<!doctype html>\n<html lang="en">\n'+h+'\n<body data-page="'+page+'"><a class="skip-link" href="#main">Skip to content</a>'+navigation(prefix,page)+content+footer(prefix)+'<button class="back-to-top" aria-label="Back to top" hidden>↑</button>'+d+'</body></html>\n'
 
@@ -157,7 +157,7 @@ for page,(title,content) in PAGES.items():
     (directory/'index.html').write_text(render(page,title,content),encoding='utf-8')
 (OUT/'.nojekyll').write_text('',encoding='utf-8')
 if OUT!=ROOT:
-    for name in ('styles.css','refinements.css','site.css','app.js'):
+    for name in ('styles.css','refinements.css','site.css','app.js','motion.css','motion.js'):
         shutil.copy2(ROOT/name,OUT/name)
     shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 print('Built homepage +',len(PAGES),'static demo destinations in',OUT)

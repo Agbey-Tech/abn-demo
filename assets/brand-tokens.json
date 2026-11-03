@@ -1,0 +1,19 @@
+{
+  "source": "https://ascendbrandnetwork.com/",
+  "verified": "2026-11-03",
+  "method": "Live original CSS custom properties and browser computed styles",
+  "colors": {
+    "ink": "#061317",
+    "teal": "#1F8A8C",
+    "turq": "#3ADCDD",
+    "cyan": "#2FC3D8",
+    "off": "#F1F2F0",
+    "mist": "#E3EFEE",
+    "teal-d": "#0E4D51"
+  },
+  "typography": {
+    "headings": "Sora",
+    "body": "Manrope",
+    "italic_accent": "Instrument Serif"
+  }
+}

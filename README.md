@@ -14,6 +14,12 @@ python -m http.server 4173 --bind 127.0.0.1
 
 Open `http://127.0.0.1:4173/`. Use an HTTP server so folder-style page destinations work correctly. No npm install is needed.
 
+## Brand and motion
+
+Colours verified against the live original site's CSS on 3 November 2026: turquoise `#3ADCDD`, teal `#1F8A8C`, cyan `#2FC3D8`, dark ink `#061317`, deep teal `#0E4D51`, off-white `#F1F2F0`, and mist `#E3EFEE`. The homepage leads with dark ink and turquoise. Original typography uses Sora, Manrope, and Instrument Serif. See `assets/brand-tokens.json` for the source and values.
+
+The opening combines masked headline entrances, a photographic reveal, an offset frame, and a staged second image. Fine-pointer devices add subtle photo and button movement. Menus, project selections, dialogs, page changes, and sections have coordinated transitions. The layout stays usable without JavaScript; reduced-motion preferences disable animation and reveal all content. Reload at the top to replay the entrance.
+
 ## Navigation
 
 The original top-level structure is retained: Home, The Network, Ascend Studio, Experiences, Resources, About, and Let's Connect. Desktop menus group the original membership, services, audiences, process, FAQ, gathering, and resource destinations. Mobile navigation uses expandable groups. The shared footer links to those destinations too.
@@ -41,6 +47,8 @@ Pages use relative links and assets, so the same build works under a GitHub repo
 - `styles.css`: base visual system.
 - `refinements.css`: editorial design refinements.
 - `site.css`: original navigation hierarchy and interior-page layouts.
+- `motion.css`: cinematic hero, responsive composition, and CSS motion.
+- `motion.js`: progressive reveals, pointer effects, and page transitions.
 - `app.js`: menus, service accordions, portfolio filters, project dialogs, and demo forms.
 - `assets/sources.json`: original asset URLs.
 
@@ -70,4 +78,4 @@ Forms validate locally and display a completion preview. **They do not send or s
 
 ## Checks
 
-The link checker verifies every generated page, local asset, fragment target, and duplicate ID, and rejects domain-root URLs that would break repository hosting. Browser QA covers the deployment artifact under a repository-style subpath, page navigation, service deep links, enquiry deep links, nested-page project images, and mobile menus and layouts.
+The link checker verifies every generated page, local asset, fragment target, and duplicate ID, and rejects domain-root URLs that would break repository hosting. Browser QA covers the deployment artifact under a repository-style subpath, page navigation, service deep links, enquiry deep links, nested-page project images, and mobile menus and layouts. Motion QA additionally verifies the initial entrance, computed brand colours, responsive headline bounds from 320px to 1440px, pointer movement, and reduced-motion behavior.
