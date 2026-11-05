@@ -13,7 +13,7 @@ class Page(HTMLParser):
         for name in ('href','src'):
             if name in attrs:self.links.append(attrs[name])
 
-files=[root/'index.html']+[p for p in root.glob('*/index.html') if p.parent.name not in ('src','_site')]
+files=[p for p in root.rglob('index.html') if not any(part in ('src','_site','.git','node_modules') for part in p.relative_to(root).parts[:-1])]
 pages={}
 for file in files:
     p=Page();p.feed(file.read_text(encoding='utf-8-sig'));pages[file.resolve()]=p

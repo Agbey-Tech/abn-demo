@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000" fill="none" role="img" aria-labelledby="start-title start-description">
+<title id="start-title">A good idea becomes a clear project plan</title><desc id="start-description">A project brief, a website wireframe, and a three-step roadmap illustrate the beginning of a project with Ascend.</desc>
+<defs><style>text{font-family:Arial,Helvetica,sans-serif}</style></defs>
+<path class="start-connection" d="M80 205H390Q450 205 450 265V360H925V805H680" stroke="#EABA2A" stroke-width="3"/>
+<circle cx="80" cy="205" r="7" fill="#EABA2A"/><circle cx="680" cy="805" r="7" fill="#EABA2A"/>
+<g transform="translate(544 112) rotate(7 220 200)"><g class="art-layer art-layer-back">
+<rect x="10" y="15" width="440" height="375" rx="10" fill="#003980"/>
+<rect width="440" height="375" rx="10" fill="#EDF2F8"/><path d="M10 0H430A10 10 0 0 1 440 10V40H0V10A10 10 0 0 1 10 0Z" fill="#fff"/>
+<circle cx="21" cy="20" r="3" fill="#9AABC3"/><circle cx="32" cy="20" r="3" fill="#9AABC3"/><circle cx="43" cy="20" r="3" fill="#9AABC3"/>
+<text x="83" y="25" fill="#65738B" font-size="11">From the first sketch</text>
+<rect x="27" y="63" width="53" height="12" rx="2" fill="#000E3F"/><path d="M286 69H327M344 69H385" stroke="#A8B7CD" stroke-width="5"/>
+<rect x="27" y="105" width="199" height="17" fill="#000E3F"/><rect x="27" y="133" width="165" height="17" fill="#000E3F"/>
+<path d="M27 178H182M27 193H155" stroke="#A8B7CD" stroke-width="5"/><rect x="27" y="218" width="102" height="32" fill="#074DA5"/>
+<rect x="251" y="105" width="161" height="146" fill="#074DA5"/><path d="M278 223L316 144L352 208L384 165" stroke="#EABA2A" stroke-width="4"/>
+<rect x="27" y="281" width="117" height="65" fill="#fff"/><rect x="161" y="281" width="117" height="65" fill="#fff"/><rect x="295" y="281" width="117" height="65" fill="#fff"/>
+</g></g>
+<g transform="translate(96 258) rotate(-5 275 265)"><g class="art-layer art-layer-main">
+<rect x="12" y="17" width="555" height="535" rx="9" fill="#003980"/>
+<rect width="555" height="535" rx="9" fill="#fff"/>
+<text x="36" y="51" fill="#000E3F" font-size="21" font-weight="700">ASCEND</text><text x="419" y="49" fill="#65738B" font-size="11" letter-spacing="1">THE BRIEF / 01</text>
+<path d="M36 76H519" stroke="#D9DFE8"/>
+<text x="36" y="118" fill="#074DA5" font-size="13" letter-spacing="2">START WITH WHAT MATTERS.</text>
+<text x="33" y="183" fill="#000E3F" font-size="54" font-weight="700" letter-spacing="-2">A good idea.</text><text x="33" y="241" fill="#000E3F" font-size="54" font-weight="700" letter-spacing="-2">A clear plan.</text>
+<text x="36" y="287" fill="#65738B" font-size="17">Your goals. Your people. Your next step.</text>
+<path d="M36 323H519" stroke="#D9DFE8"/><text x="36" y="357" fill="#65738B" font-size="12" letter-spacing="1">WHAT ARE WE BUILDING?</text>
+<rect x="36" y="376" width="140" height="42" rx="3" fill="#074DA5"/><text x="66" y="402" fill="#fff" font-size="14">Website</text>
+<rect x="188" y="376" width="151" height="42" rx="3" fill="#EDF2F8"/><text x="217" y="402" fill="#000E3F" font-size="14">Platform</text>
+<rect x="351" y="376" width="167" height="42" rx="3" fill="#EDF2F8"/><text x="385" y="402" fill="#000E3F" font-size="14">System</text>
+<text x="36" y="483" fill="#000E3F" font-size="16" font-weight="700">Let’s find the right starting point.</text><path d="M485 487L509 463M485 463H509V487" stroke="#074DA5" stroke-width="3"/>
+</g></g>
+<g transform="translate(610 586) rotate(5 175 118)"><g class="art-layer art-layer-front">
+<rect x="9" y="13" width="354" height="252" rx="10" fill="#003980"/><rect width="354" height="252" rx="10" fill="#000E3F"/>
+<text x="27" y="38" fill="#B7C8E4" font-size="11" letter-spacing="1.5">A CLEAR WAY FORWARD</text>
+<path d="M45 71V208" stroke="#52648F" stroke-width="2"/>
+<circle class="roadmap-node" cx="45" cy="78" r="11" fill="#EABA2A"/><path d="M40 78L44 82L50 74" stroke="#000E3F" stroke-width="2"/>
+<text x="75" y="84" fill="#fff" font-size="19" font-weight="700">Understand</text><text x="75" y="106" fill="#B7C8E4" font-size="12">Start with the right questions.</text>
+<circle cx="45" cy="144" r="8" fill="#074DA5" stroke="#B7C8E4" stroke-width="2"/><text x="75" y="150" fill="#fff" font-size="19" font-weight="700">Define</text><text x="75" y="172" fill="#B7C8E4" font-size="12">Agree a practical scope.</text>
+<circle cx="45" cy="209" r="8" fill="#074DA5" stroke="#B7C8E4" stroke-width="2"/><text x="75" y="215" fill="#fff" font-size="19" font-weight="700">Build</text><text x="75" y="237" fill="#B7C8E4" font-size="12">Bring the right solution to life.</text>
+</g></g>
+<text x="100" y="930" fill="#DCE7F8" font-size="13" letter-spacing="2">EVERY GREAT PROJECT STARTS WITH A CONVERSATION.</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" fill="none" role="img" aria-labelledby="ecosystem-title ecosystem-desc">
+<title id="ecosystem-title">Websites, platforms and systems, connected by Ascend</title><desc id="ecosystem-desc">An original illustration combining a business website, a project workspace, a mobile interface and a connected workflow in navy, blue, white and gold. All interfaces are illustrative.</desc>
+<defs><style>text{font-family:Arial,Helvetica,sans-serif}.label{font-size:14px;letter-spacing:2px}.small{font-size:16px}.medium{font-size:22px}.navy{fill:#000E3F}.muted{fill:#65738B}.white{fill:#fff}.blue{fill:#074DA5}</style></defs>
+<!-- A single connected path, using solid strokes and colour fields. -->
+<path class="ecosystem-connection" d="M80 180H370Q410 180 410 140V95H1050M1210 260H1382V870H950" stroke="#EABA2A" stroke-width="3"/>
+<circle cx="80" cy="180" r="7" fill="#EABA2A"/><circle cx="950" cy="870" r="7" fill="#EABA2A"/>
+<g transform="translate(562 50) rotate(3 390 245)"><g class="art-layer art-layer-back">
+<rect x="12" y="15" width="760" height="460" rx="14" fill="#003B85"/>
+<rect width="760" height="460" rx="14" fill="#EDF2F8"/>
+<path d="M14 0H746A14 14 0 0 1 760 14V58H0V14A14 14 0 0 1 14 0Z" fill="#fff"/>
+<rect x="22" y="18" width="25" height="25" rx="4" fill="#074DA5"/>
+<text x="30" y="36" fill="#EABA2A" font-size="18" font-weight="700">A</text><text x="60" y="36" class="navy" font-size="17" font-weight="700">Ascend / Workspace</text>
+<circle cx="716" cy="29" r="13" fill="#E2E9F3"/>
+<path d="M153 58V460" stroke="#D4DEEB"/><text x="25" y="106" class="muted small">Overview</text><rect x="13" y="126" width="126" height="39" rx="4" fill="#074DA5"/><text x="25" y="152" class="white small">Projects</text><text x="25" y="194" class="muted small">People</text><text x="25" y="236" class="muted small">Workflow</text>
+<text x="184" y="110" class="navy" font-size="29" font-weight="700">A clearer view of the work.</text><text x="184" y="140" class="muted small">One workspace. Everyone connected.</text>
+<rect x="184" y="168" width="253" height="70" rx="6" fill="#fff"/><text x="201" y="191" class="muted" font-size="12">CURRENT PROJECT</text><text x="201" y="218" class="navy" font-size="21" font-weight="700">Website launch</text>
+<rect x="452" y="168" width="274" height="70" rx="6" fill="#000E3F"/><text x="470" y="191" fill="#B8CBE6" font-size="12">NEXT MILESTONE</text><text x="470" y="218" class="white" font-size="21" font-weight="700">Ready for review</text>
+<rect x="184" y="257" width="542" height="167" rx="6" fill="#fff"/>
+<text x="204" y="287" class="navy small" font-weight="700">Project activity</text><path d="M204 304H706M204 351H706" stroke="#EDF2F8"/>
+<circle cx="214" cy="328" r="6" fill="#074DA5"/><text x="233" y="334" class="navy small">Customer portal</text><rect x="586" y="315" width="114" height="25" rx="3" fill="#EDF2F8"/><text x="599" y="332" class="blue" font-size="12">In progress</text>
+<circle cx="214" cy="377" r="6" fill="#EABA2A"/><text x="233" y="383" class="navy small">Content review</text><text x="618" y="383" class="muted" font-size="12">Assigned</text>
+</g></g>
+<g transform="translate(58 302) rotate(-4 525 285)"><g class="art-layer art-layer-main">
+<rect x="13" y="18" width="1056" height="564" rx="12" fill="#003B85"/>
+<rect width="1056" height="564" rx="12" fill="#fff"/>
+<path d="M12 0H1044A12 12 0 0 1 1056 12V38H0V12A12 12 0 0 1 12 0Z" fill="#E6ECF5"/>
+<circle cx="22" cy="19" r="3" fill="#8C9DB8"/><circle cx="34" cy="19" r="3" fill="#8C9DB8"/><circle cx="46" cy="19" r="3" fill="#8C9DB8"/>
+<rect x="365" y="10" width="326" height="17" rx="4" fill="#F7F8FA"/><text x="528" y="23" class="muted" font-size="10" text-anchor="middle">A better digital experience</text>
+<text x="40" y="88" class="navy" font-size="23" font-weight="700" letter-spacing="-1">ASCEND</text><text x="539" y="86" class="navy" font-size="13">Work</text><text x="606" y="86" class="navy" font-size="13">Services</text><text x="696" y="86" class="navy" font-size="13">About</text>
+<rect x="859" y="61" width="154" height="38" fill="#074DA5"/><text x="880" y="85" class="white" font-size="13">Let’s talk</text><path d="M987 85L997 75M987 75H997V85" stroke="#fff" stroke-width="1.5"/>
+<path d="M40 120H1014" stroke="#E3E9F1"/>
+<text x="42" y="169" class="blue label">DESIGNED AROUND YOU</text>
+<text x="39" y="238" class="navy" font-size="58" font-weight="700" letter-spacing="-3">Your business.</text><text x="39" y="299" class="navy" font-size="58" font-weight="700" letter-spacing="-3">Clearly connected.</text>
+<text x="43" y="345" class="muted" font-size="18">A clear digital presence.</text><text x="43" y="374" class="muted" font-size="18">A better way to work.</text>
+<rect x="42" y="410" width="184" height="46" fill="#074DA5"/><text x="62" y="439" class="white" font-size="14" font-weight="700">Explore the possibilities</text>
+<rect x="638" y="151" width="375" height="327" fill="#000E3F"/>
+<path d="M678 427V366H730V305H782V244H834V190" stroke="#EABA2A" stroke-width="3"/>
+<rect x="809" y="181" width="164" height="65" rx="5" fill="#fff"/><rect x="822" y="194" width="24" height="24" rx="3" fill="#EDF2F8"/><path d="M828 206L833 211L840 201" stroke="#074DA5" stroke-width="2"/><text x="855" y="210" class="navy" font-size="14" font-weight="700">Connect</text><path d="M855 226H950" stroke="#CBD5E3" stroke-width="3"/>
+<rect x="760" y="276" width="212" height="65" rx="5" fill="#074DA5"/><text x="781" y="303" class="white" font-size="15" font-weight="700">Create</text><path d="M781 321H942" stroke="#92B4E0" stroke-width="3"/>
+<rect x="704" y="371" width="269" height="65" rx="5" fill="#fff"/><text x="725" y="398" class="navy" font-size="15" font-weight="700">Move forward</text><path d="M725 416H944" stroke="#CBD5E3" stroke-width="3"/>
+<path d="M40 509H1014" stroke="#E3E9F1"/><text x="43" y="539" class="muted" font-size="13">Websites</text><text x="275" y="539" class="muted" font-size="13">Platforms</text><text x="514" y="539" class="muted" font-size="13">Business systems</text>
+</g></g>
+<g transform="translate(1110 468) rotate(5 122 238)"><g class="art-layer art-layer-front">
+<rect x="10" y="15" width="245" height="475" rx="30" fill="#003B85"/>
+<rect width="245" height="475" rx="30" fill="#000E3F"/>
+<rect x="9" y="9" width="227" height="457" rx="23" fill="#F7F8FA"/>
+<path d="M81 9H164V20A10 10 0 0 1 154 30H91A10 10 0 0 1 81 20Z" fill="#000E3F"/>
+<text x="28" y="64" class="navy" font-size="15" font-weight="700">Your workspace</text><circle cx="207" cy="59" r="11" fill="#E3EAF4"/>
+<rect x="24" y="87" width="197" height="100" rx="8" fill="#074DA5"/><text x="39" y="112" fill="#DCE8F8" font-size="10">YOUR NEXT STEP</text><text x="39" y="141" class="white" font-size="21" font-weight="700">Make it happen.</text><path d="M39 163H202" stroke="#9EBBE3" stroke-width="2"/>
+<text x="26" y="221" class="navy" font-size="16" font-weight="700">All in one place</text>
+<rect x="24" y="239" width="197" height="51" rx="6" fill="#fff"/><rect x="36" y="252" width="25" height="25" rx="4" fill="#EDF2F8"/><path d="M43 262H54M43 267H51" stroke="#074DA5" stroke-width="2"/><text x="75" y="271" class="navy" font-size="13">Projects</text><text x="199" y="271" class="blue" font-size="16">↗</text>
+<rect x="24" y="300" width="197" height="51" rx="6" fill="#fff"/><circle cx="49" cy="326" r="11" fill="#EDF2F8"/><circle cx="49" cy="323" r="3" fill="#074DA5"/><path d="M43 331Q49 325 55 331" stroke="#074DA5" stroke-width="1.5"/><text x="75" y="332" class="navy" font-size="13">Your team</text><text x="199" y="332" class="blue" font-size="16">↗</text>
+<rect x="24" y="361" width="197" height="51" rx="6" fill="#fff"/><rect x="38" y="375" width="22" height="22" rx="3" stroke="#074DA5" stroke-width="1.5"/><path d="M38 382H60" stroke="#074DA5" stroke-width="1.5"/><text x="75" y="393" class="navy" font-size="13">Schedule</text><text x="199" y="393" class="blue" font-size="16">↗</text>
+<rect x="94" y="443" width="57" height="4" rx="2" fill="#C6D1E0"/>
+</g></g>
+<g transform="translate(87 922)"><circle cx="7" cy="7" r="6" fill="#EABA2A"/><text x="25" y="12" fill="#DDE8F8" font-size="14" letter-spacing="1.5">ONE CONNECTED DIGITAL EXPERIENCE</text></g>
+</svg>

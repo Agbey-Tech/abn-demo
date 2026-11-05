@@ -1,19 +1,16 @@
 {
-  "source": "https://ascendbrandnetwork.com/",
-  "verified": "2026-11-03",
-  "method": "Live original CSS custom properties and browser computed styles",
+  "source": "User-supplied WhatsApp-named logo JPEGs",
+  "status": "Approximate JPEG-derived working palette; not an official brand specification",
   "colors": {
-    "ink": "#061317",
-    "teal": "#1F8A8C",
-    "turq": "#3ADCDD",
-    "cyan": "#2FC3D8",
-    "off": "#F1F2F0",
-    "mist": "#E3EFEE",
-    "teal-d": "#0E4D51"
+    "blue": "#074DA5",
+    "navy": "#000E3F",
+    "gold": "#EABA2A",
+    "paper": "#F7F8FA",
+    "pale": "#EDF2F8",
+    "secondary_text": "#566174"
   },
   "typography": {
-    "headings": "Sora",
-    "body": "Manrope",
-    "italic_accent": "Instrument Serif"
+    "primary": "Manrope",
+    "labels": "IBM Plex Mono"
   }
 }

@@ -1,0 +1,466 @@
+[
+  {
+    "slug": "springs-gate-chapel",
+    "name": "Springs Gate Chapel",
+    "category": "Churches & Ministries",
+    "sector": "Church · Lake Ridge, VA",
+    "description": "A welcoming site for a church, with service times, ministries, live-stream links and visitor information.",
+    "url": "https://springsgatechapel.org/",
+    "image": "assets/springs-gate.webp"
+  },
+  {
+    "slug": "joshua-christian-ministries",
+    "name": "Joshua Christian Ministries",
+    "category": "Churches & Ministries",
+    "sector": "Church · Kettering, OH",
+    "description": "An image-led site for a church, with service times, ministries and online giving.",
+    "url": "https://jcmohio.org/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "recharge-global",
+    "name": "Recharge Global",
+    "category": "Churches & Ministries",
+    "sector": "Youth & campus movement",
+    "description": "A bold site for a Christ-centred youth and campus movement, with events, a movement film, stories and ways to give.",
+    "url": "https://rechargeglobal.org/",
+    "image": "assets/recharge.webp"
+  },
+  {
+    "slug": "cire-homes",
+    "name": "Cire Homes",
+    "category": "Real Estate & Property",
+    "sector": "Short-term rental management · Atlanta",
+    "description": "Management, cleaning and maintenance services presented with clear pricing.",
+    "url": "https://cirehomes.com/",
+    "image": "assets/cire-homes.webp"
+  },
+  {
+    "slug": "faircross",
+    "name": "Faircross",
+    "category": "Real Estate & Property",
+    "sector": "Construction & real estate",
+    "description": "A modern site presenting services with clarity and speed.",
+    "url": "https://faircross.co.uk/",
+    "image": "assets/faircross.webp"
+  },
+  {
+    "slug": "art-neidich",
+    "name": "Art Neidich",
+    "category": "Real Estate & Property",
+    "sector": "Property inspection",
+    "description": "A website for a property inspection and consulting business.",
+    "url": "https://artneidich.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "lilinand-corporation",
+    "name": "Lilinand Corporation",
+    "category": "Real Estate & Property",
+    "sector": "Real estate investment consulting",
+    "description": "A website for a real-estate investment consultancy.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "camden-s-comfort-project",
+    "name": "Camden's Comfort Project",
+    "category": "Non-Profit & Community",
+    "sector": "Neonatal non-profit",
+    "description": "A warm, accessible site for a non-profit supporting neonatal units.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "loisirs-de-saint-gervais",
+    "name": "Loisirs de Saint-Gervais",
+    "category": "Non-Profit & Community",
+    "sector": "Recreation non-profit · Québec",
+    "description": "A French-language site for a non-profit recreation organisation.",
+    "url": "https://loisirs-saint-gervais.ca/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "the-c-seed",
+    "name": "The C Seed",
+    "category": "Non-Profit & Community",
+    "sector": "Economic development",
+    "description": "A responsive site with custom animations and SEO optimisation.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "ac-kung-fu",
+    "name": "AC Kung Fu",
+    "category": "Non-Profit & Community",
+    "sector": "Martial arts association",
+    "description": "A dynamic website for an Australian-Chinese kung fu association.",
+    "url": "https://ackungfu.com.au/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "enabled-life",
+    "name": "Enabled Life",
+    "category": "Health & Care",
+    "sector": "In-home care · Georgia",
+    "description": "A clear, reassuring site for a veteran-owned in-home care agency, with a free-consultation call to action.",
+    "url": "https://enabledlife.net/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "care-4-u-health-services",
+    "name": "Care 4 U Health Services",
+    "category": "Health & Care",
+    "sector": "Home care · Northern Virginia",
+    "description": "A warm site for a family-owned home-care provider, with services and areas covered.",
+    "url": "https://care4uhealth.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "caring-home-services",
+    "name": "Caring Home Services",
+    "category": "Health & Care",
+    "sector": "Home care",
+    "description": "A clear, professional WordPress site for a home care provider.",
+    "url": "https://caringhomeservices.net/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "absolute-health-llc",
+    "name": "Absolute Health LLC",
+    "category": "Health & Care",
+    "sector": "Healthcare",
+    "description": "A responsive healthcare website with optimised UX.",
+    "url": "https://absolutehealthva.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "reform-psychiatry",
+    "name": "Reform Psychiatry",
+    "category": "Health & Care",
+    "sector": "Mental health · Tennessee",
+    "description": "A calm, reassuring site for a mental health provider.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "blooming-heart-school-of-health",
+    "name": "Blooming Heart School of Health",
+    "category": "Health & Care",
+    "sector": "Healthcare training · Charlotte, NC",
+    "description": "An enrolment-focused site for a school offering nurse aide, medication aide and CPR training.",
+    "url": "https://bloominghearts.net/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "functional-med-growth",
+    "name": "Functional Med Growth",
+    "category": "Health & Care",
+    "sector": "Healthcare marketing",
+    "description": "A site for an agency marketing functional and holistic healthcare providers.",
+    "url": "https://functionalmedgrowth.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "keystone-associates-consulting",
+    "name": "Keystone & Associates Consulting",
+    "category": "Professional Services & Finance",
+    "sector": "Consulting",
+    "description": "Service pages, testimonials and contact forms on a scalable CMS.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "milestone-capital-funding",
+    "name": "Milestone Capital Funding",
+    "category": "Professional Services & Finance",
+    "sector": "Small-business lending",
+    "description": "A mobile-first website with lead capture, CMS integration and SEO foundations.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "retail-funding",
+    "name": "Retail Funding",
+    "category": "Professional Services & Finance",
+    "sector": "Business funding",
+    "description": "A conversion-focused site with a step-by-step process and client reviews.",
+    "url": "https://retailfunding.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "timberley-jones",
+    "name": "Timberley Jones",
+    "category": "Professional Services & Finance",
+    "sector": "Personal brand · Family tech consulting",
+    "description": "An elegant personal-brand site with services and a call-booking call to action.",
+    "url": "https://timberleyjones.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "fly-with-vince",
+    "name": "Fly With Vince",
+    "category": "Professional Services & Finance",
+    "sector": "Immigration consultancy",
+    "description": "Programme pages for Canada, Australia and Germany, with an apply-now flow.",
+    "url": "https://flywithvince.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "manpower-supply-caribbean",
+    "name": "Manpower Supply Caribbean",
+    "category": "Professional Services & Finance",
+    "sector": "Staffing",
+    "description": "A recruitment site presenting services, industries and a clear hiring process.",
+    "url": "https://manpowersupplycaribbean.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "top-jobinn",
+    "name": "Top Jobinn",
+    "category": "Professional Services & Finance",
+    "sector": "Careers platform",
+    "description": "A careers platform connecting job seekers with opportunities.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "ivyzen",
+    "name": "IvyZen",
+    "category": "Professional Services & Finance",
+    "sector": "Admissions mentoring",
+    "description": "A website for a university admissions mentoring service.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "the-base-marketing",
+    "name": "The Base Marketing",
+    "category": "Marketing, Media & Technology",
+    "sector": "Digital marketing agency",
+    "description": "A bold site for an agency offering web design, SEO, social media and Google Ads.",
+    "url": "https://thebasemarketing.com/",
+    "image": "assets/base-marketing.webp"
+  },
+  {
+    "slug": "cheetah-conversions",
+    "name": "Cheetah Conversions",
+    "category": "Marketing, Media & Technology",
+    "sector": "B2B performance marketing",
+    "description": "A crisp site covering SEO, conversion optimisation and marketing audits.",
+    "url": "https://cheetahconversions.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "loud-lion",
+    "name": "Loud Lion",
+    "category": "Marketing, Media & Technology",
+    "sector": "TikTok content agency",
+    "description": "A bold website for a specialist TikTok content agency.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "codify-labs",
+    "name": "Codify Labs",
+    "category": "Marketing, Media & Technology",
+    "sector": "Development agency",
+    "description": "A website for a full-stack development agency.",
+    "url": "https://codify-labs.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "rengovtech-dubai",
+    "name": "Rengovtech Dubai",
+    "category": "Marketing, Media & Technology",
+    "sector": "IT & cyber-security",
+    "description": "A corporate site for an IT, software and cyber-security consultancy.",
+    "url": "https://rengovtechdubai.com/",
+    "image": "assets/rengovtech.webp"
+  },
+  {
+    "slug": "little-africa-news",
+    "name": "Little Africa News",
+    "category": "Marketing, Media & Technology",
+    "sector": "News & media",
+    "description": "A news site sharing African news, culture and stories.",
+    "url": "https://littleafricanews.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "dmc-copenhagen",
+    "name": "DMC Copenhagen",
+    "category": "Travel & Events",
+    "sector": "Destination management",
+    "description": "A corporate events site covering conferences, incentives and transfers.",
+    "url": "https://copenhagendmc.dk/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "stockholm-dmc",
+    "name": "Stockholm DMC",
+    "category": "Travel & Events",
+    "sector": "Destination management",
+    "description": "A meetings and events site with clear service cards.",
+    "url": "https://stockholm-dmc.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "argentina-tango",
+    "name": "Argentina Tango",
+    "category": "Travel & Events",
+    "sector": "Tours & lessons · Buenos Aires",
+    "description": "A photo-led site for tango tours, lessons and holiday packages.",
+    "url": "https://argentinatango.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "wave-x-sports",
+    "name": "Wave X Sports",
+    "category": "Travel & Events",
+    "sector": "Water sports & e-shop · Dubai",
+    "description": "A premium site with an online shop for eFoils, Seabobs and accessories.",
+    "url": "https://wavexsports.ae/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "cjv-construction-remodeling",
+    "name": "CJV Construction & Remodeling",
+    "category": "Home Services & Construction",
+    "sector": "Construction · Oklahoma",
+    "description": "Clear service categories, FAQs, client testimonials and an estimate request form.",
+    "url": "https://cjvconstruction.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "cool-one-ac",
+    "name": "Cool One AC",
+    "category": "Home Services & Construction",
+    "sector": "AC & HVAC · Dubai",
+    "description": "An instant cost estimator, booking form and maintenance plans.",
+    "url": "https://cooloneac.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "custom-climate",
+    "name": "Custom Climate",
+    "category": "Home Services & Construction",
+    "sector": "HVAC",
+    "description": "A fast WordPress and Elementor site, built in six days.",
+    "url": "https://mycustomclimate.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "north-lakes-garage-doors",
+    "name": "North Lakes Garage Doors",
+    "category": "Home Services & Construction",
+    "sector": "Garage doors · Queensland",
+    "description": "A quick-estimate form and click-to-call buttons.",
+    "url": "https://northlakesgaragedoors.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "prima-plumbing",
+    "name": "Prima Plumbing",
+    "category": "Home Services & Construction",
+    "sector": "Plumbing · Sydney",
+    "description": "Emergency calls to action, special offers and online booking.",
+    "url": "https://primaplumbing.com.au/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "meserole-complete-landscaping",
+    "name": "Meserole Complete Landscaping",
+    "category": "Home Services & Construction",
+    "sector": "Landscaping",
+    "description": "A website for a driveway and landscaping company.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "turf-right",
+    "name": "Turf Right",
+    "category": "Home Services & Construction",
+    "sector": "Lawn care",
+    "description": "A fresh, friendly website for a lawn-care business.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "essential-flooring",
+    "name": "Essential Flooring",
+    "category": "Home Services & Construction",
+    "sector": "Flooring",
+    "description": "A clean, fast site built for SEO and easy content updates.",
+    "url": "",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "bp-logistics",
+    "name": "BP Logistics",
+    "category": "Logistics & Automotive",
+    "sector": "Freight & export · Dubai",
+    "description": "A bilingual French and English site for a freight, vehicle export and logistics company.",
+    "url": "https://bplogistics-dxb.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "evo-custom-car",
+    "name": "EVO Custom Car",
+    "category": "Logistics & Automotive",
+    "sector": "In-car entertainment",
+    "description": "A site for an in-car entertainment and visibility specialist.",
+    "url": "https://evo-blr.com/",
+    "image": "",
+    "reference_only": true
+  },
+  {
+    "slug": "kim-koon-motors",
+    "name": "Kim Koon Motors",
+    "category": "Logistics & Automotive",
+    "sector": "Automotive",
+    "description": "A sleek automotive website with strong visuals.",
+    "url": "https://kimkoonmotors.com/",
+    "image": "",
+    "reference_only": true
+  }
+]

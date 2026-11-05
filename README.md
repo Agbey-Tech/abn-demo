@@ -1,81 +1,73 @@
-# Ascend Brand Network — redesign pitch
+# Ascend Brand Network — redesign demo
 
-A static, responsive presentation demo using original Ascend logos, photographs, and project imagery. The homepage is the principal design presentation; ten concise interior pages preserve the original navigation structure without rebuilding the full production website.
+A curated pitch for a broader digital design and development company: websites, platforms, business systems, and the original Ascend Studio creative services. The secondary Network area retains its membership, gatherings, and resources information.
 
-**Deployment:** Follow [DEPLOYMENT.md](DEPLOYMENT.md) for the one-time GitHub Pages setup and first push.
+The demo features six selected founding-team projects. The complete original inventory stays in source reference files; it is not the public portfolio in this pitch.
 
 ## Preview
 
-From this folder:
-
 ```powershell
+python scripts/build.py
 python -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:4173/`. Use an HTTP server so folder-style page destinations work correctly. No npm install is needed.
-
-## Brand and motion
-
-Colours verified against the live original site's CSS on 3 November 2026: turquoise `#3ADCDD`, teal `#1F8A8C`, cyan `#2FC3D8`, dark ink `#061317`, deep teal `#0E4D51`, off-white `#F1F2F0`, and mist `#E3EFEE`. The homepage leads with dark ink and turquoise. Original typography uses Sora, Manrope, and Instrument Serif. See `assets/brand-tokens.json` for the source and values.
-
-The opening combines masked headline entrances, a photographic reveal, an offset frame, and a staged second image. Fine-pointer devices add subtle photo and button movement. Menus, project selections, dialogs, page changes, and sections have coordinated transitions. The layout stays usable without JavaScript; reduced-motion preferences disable animation and reveal all content. Reload at the top to replay the entrance.
-
-## Navigation
-
-The original top-level structure is retained: Home, The Network, Ascend Studio, Experiences, Resources, About, and Let's Connect. Desktop menus group the original membership, services, audiences, process, FAQ, gathering, and resource destinations. Mobile navigation uses expandable groups. The shared footer links to those destinations too.
-
-| Page | Path |
-|---|---|
-| Home | `/` |
-| The Network | `/network/` |
-| Ascend Studio | `/services/` |
-| Churches & Ministries | `/churches-ministries/` |
-| Real Estate Professionals | `/real-estate/` |
-| Portfolio | `/portfolio/` |
-| The Shepherd's Roundtable | `/roundtable/` |
-| Experiences | `/experiences/` |
-| Resource Center | `/resources/` |
-| About ABN | `/about/` |
-| Let's Connect | `/work-with-us/` |
-
-Pages use relative links and assets, so the same build works under a GitHub repository subpath. There is no client-side router or rewrite requirement.
-
-## Edit and regenerate
-
-- `src/home.html`: homepage design source and shared demo dialog markup.
-- `scripts/build.py`: shared navigation, footer, and concise interior-page content.
-- `styles.css`: base visual system.
-- `refinements.css`: editorial design refinements.
-- `site.css`: original navigation hierarchy and interior-page layouts.
-- `motion.css`: cinematic hero, responsive composition, and CSS motion.
-- `motion.js`: progressive reveals, pointer effects, and page transitions.
-- `app.js`: menus, service accordions, portfolio filters, project dialogs, and demo forms.
-- `assets/sources.json`: original asset URLs.
-
-After editing the source or page builder:
-
-```powershell
-python scripts/build.py
-python scripts/check_site.py
-```
-
-Generated root and interior HTML files are included for immediate preview. Edit their sources rather than generated output. GitHub Actions regenerates the deployment artifact automatically, checks links, and deploys only `_site/`.
+Open `http://127.0.0.1:4173/`. Reload at the top to replay the opening animation. No npm installation is needed.
 
 ## Pitch walkthrough
 
-1. Introduce the homepage's two distinct audience paths.
-2. Open the Network and Studio menus to show the familiar information architecture.
-3. Follow a service link to its actual page section.
-4. Visit the portfolio, filter the selection, and open a project.
-5. Explore the planned gathering formats and future resources.
-6. Follow a membership or consultation link to the matching contact mode.
+1. Open the homepage: broader business positioning, the actual supplied symbol, and an original illustration of connected websites, platforms, and systems.
+2. Explore selected work and a project profile. Original screenshots and founding-team attribution are retained.
+3. Explore Websites, Platforms, and Systems, plus the five original Studio service areas.
+4. Try the labelled illustrative business workflow on the homepage.
+5. Open the audience pages, About, and the project enquiry preview.
+6. Visit the secondary Network, Roundtable, Experiences, and Resource Center.
 
-## Scope
+## Source files
 
-All 17 original image assets are local. Fonts load from Google Fonts with system fallbacks. Portfolio work is attributed to the founding team, future events remain planned, and resources remain marked as coming soon. Supporting copy is written for this demo; no testimonials or unverified outcomes have been invented.
+- `TODO.md`: the short working checklist, revised to reflect the curated demo scope.
+- `REDESIGN-PLAN.md`: the original broader design plan. The later demo-scope decision takes precedence over full portfolio implementation.
+- `src/home.html`: homepage composition.
+- `scripts/content.py`: shared components and preserved service, process, and team information. `SELECTED` controls the six-project selection.
+- `scripts/pages.py`: supporting page compositions and project profiles.
+- `scripts/build.py`: shared navigation, footer, metadata, relative URLs, and deployment packaging.
+- `design.css`: the active design system, responsive layouts, and CSS motion. All designed backgrounds use solid colours.
+- `site.js`: navigation, hero illustration motion, workflow, filters, and local enquiry preview.
+- `content/original-site.json`: captured original content, links, FAQs, and asset references.
+- `content/projects.json`: the full 47-project source inventory for reference.
+- `CONTENT-MAP.md`: what was retained and where it appears.
 
-Forms validate locally and display a completion preview. **They do not send or store enquiries.** The old default WordPress post and unfinished media page are excluded. No GitHub repository has been created, pushed, or published automatically.
+The earlier CSS/JS files are retained as historical source and are no longer loaded by the redesign. The deployment builder copies only active styles/scripts and image files referenced by the generated demo. Unused portfolio downloads have been moved outside the demo into the temporary audit archive. Their source content remains in the inventory.
 
-## Checks
+## Design
 
-The link checker verifies every generated page, local asset, fragment target, and duplicate ID, and rejects domain-root URLs that would break repository hosting. Browser QA covers the deployment artifact under a repository-style subpath, page navigation, service deep links, enquiry deep links, nested-page project images, and mobile menus and layouts. Motion QA additionally verifies the initial entrance, computed brand colours, responsive headline bounds from 320px to 1440px, pointer movement, and reduced-motion behavior.
+The supplied WhatsApp-named JPEGs are the logo source. The header uses the original symbol with a live-text brand label; the footer uses the supplied horizontal logo. JPEG-derived working colours are blue `#074DA5`, navy `#000E3F`, and gold `#EABA2A`, with a light neutral canvas. Manrope and IBM Plex Mono load from Google Fonts with local fallbacks.
+
+No generated client work, staff portraits, testimonials, or results are used. About includes a clearly captioned fictional studio setting; it does not depict Ascend staff. The system workflow is clearly labelled as illustrative. Project profiles use original descriptions and imagery, without invented case-study results.
+
+## Validation and deployment
+
+```powershell
+node --check site.js
+python scripts/check_site.py
+python scripts/build.py --output _site
+python scripts/check_site.py _site
+python scripts/check_content.py _site
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for GitHub Pages setup. Relative links work at a domain root or repository subpath. The existing workflow builds and deploys `_site/` on pushes to `main`.
+
+## Demo limits
+
+The enquiry form validates locally and previews completion. It does not send requests or store personal data. A live-company contact link is provided. Real enquiry delivery and an approved privacy policy remain production launch dependencies. Planned gatherings and unpublished resources retain those labels.
+
+No changes have been pushed or published automatically.
+
+Hero artwork: `assets/ascend-digital-ecosystem.svg`, an original code-native vector illustration. Interfaces are illustrative, not client work.
+
+## Motion and project-page visual
+
+Start a Project has a dedicated illustration (`assets/ascend-project-start.svg`) and a direct link to the enquiry form. The homepage and contact artwork are rendered inline so their individual panels can move independently. The SVG files remain editable artwork sources.
+
+Motion includes staggered headline and copy entrances, drawing connection lines, continuous layered illustration movement, stronger scroll reveals, menu-link entrances, and hover responses. Pause/Resume controls are available in the illustrated openings and footer. System reduced-motion preferences disable effects, reveal content, and keep controls usable. Enquiry-mode links continue to work when jumping to the form.
+
+About-page image: `assets/about-studio-team.png`. Generation method and final prompt are recorded in `assets/about-studio-team.source.md`.
